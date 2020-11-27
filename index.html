@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wheel of Fortune</title>
+        <link rel="stylesheet" href="./css/main.css">
+    </head>
+    <body>
+        <h1>Wheel of Fortune</h1>
+       <div class="instructions">Welcome to the Wheel of Fortune quiz!<br>
+            A random question appears below with several multiple choice options.<br>
+            Click on the checkbox beside your answer choice.<br>
+            A notice will appear advising you if you answered the question correctly or incorrectly.<br>
+            A button will also appear to move on to the next question.<br>
+            Click on this button 
+            <button id="startGame">Let's Play!</button>
+        </div>
+        <div id="randomQuestion"></div>
+        <div id="answerOptions">
+            <form>
+                <input name="choice" value="0" /><label for="answerText1"></label>
+                <input name="choice" value="1" /><label for="answerText2"></label>
+                <input name="choice" value="2" /><label for="answerText3"></label>
+                <input name="choice" value="3" /><label for="answerText4"></label>
+                <button id="submit">Submit</button>
+            </form>
+        </div>
+        <div id="timer"></div>
+        <div id="results"></div>
+        <button id="playAgainBtn">Play Again!</button>
+        <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/questionBank.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>

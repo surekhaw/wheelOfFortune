@@ -1,0 +1,8 @@
+/* hide answer options so they don't flash on loading page */
+#answerOptions {
+    display: none;
+}
+
+#playAgainBtn {
+    display: none;
+}
