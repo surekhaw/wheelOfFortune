@@ -1,4 +1,4 @@
-# Rock, Paper, Scissors
+# Wheel of Fortune
 
 At The Last Mile, our Web Development Fundamentals ("WDF") students learn intermediate javascript skills. One of the required assignments by which they demonstrate their mastery of these skills is by creating a Wheel of Fortune quiz.  Students must use an object constructor to create a bank of quiz questions, and then build a quiz that displays each question one at a time at random.  The user has 10 seconds to answer each question, and some questions can have more than one correct answer.
 
